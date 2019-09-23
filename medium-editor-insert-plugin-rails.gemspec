@@ -16,11 +16,11 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'railties', '~> 4.0'
+  gem.add_dependency 'railties', '>= 4.0'
   gem.add_dependency 'jquery-rails'
   gem.add_dependency 'jquery-ui-rails'
   gem.add_dependency 'jquery-fileupload-rails'
   # gem.add_dependency 'medium-editor-engine'
 
-  gem.add_development_dependency 'bundler', '~> 1.0'
+  gem.add_development_dependency 'bundler', '>= 1.0'
 end
